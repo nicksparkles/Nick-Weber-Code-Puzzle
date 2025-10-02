@@ -12,7 +12,7 @@ namespace RedRoverCodePuzzle
 
     public static class StringHelper
     {
-        public static string FormatString(string? input)
+        public static string FormatString(string? input, FormatOptions formatOptions = FormatOptions.Standard)
         {
             if (string.IsNullOrWhiteSpace(input))
                 return string.Empty;
